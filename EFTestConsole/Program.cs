@@ -29,7 +29,7 @@ namespace EFTestConsole
                 var ord = new Order(cst.Id, "11", 10)
                 {
                     Id = rep.GenerateId()
-                };
+                };  
                 cst.Orders.Add(ord);
                 var ord1 = new Order(cst.Id, "15", 25)
                 {
