@@ -12,9 +12,9 @@ namespace EFTestConsole
     {
         static void Main(string[] args)
         {
-            Customer c1 = null;
             using (var rep = new CustomerRepository())
             {
+                Customer c1 = null;
             //    var cst = new Customer
             //    {
             //        Id = rep.GenerateId(),
